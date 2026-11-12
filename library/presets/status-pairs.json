@@ -1,0 +1,46 @@
+{
+  "format": "design-agent-status-v1",
+  "description": "Single source of status foregrounds and reference backgrounds. background is a verified reference pairing and does not force replacing preset surfaces; each preset may use the same foregrounds on its own backgrounds that it explicitly verifies and notes. Use colors together with text or icons; new backgrounds and transparency require re-measurement.",
+  "status": {
+    "error": {
+      "light": {
+        "foreground": "#a52834",
+        "background": "#ffffff"
+      },
+      "dark": {
+        "foreground": "#ffb4b8",
+        "background": "#202630"
+      }
+    },
+    "warning": {
+      "light": {
+        "foreground": "#795400",
+        "background": "#ffffff"
+      },
+      "dark": {
+        "foreground": "#f4d477",
+        "background": "#202630"
+      }
+    },
+    "success": {
+      "light": {
+        "foreground": "#24653f",
+        "background": "#ffffff"
+      },
+      "dark": {
+        "foreground": "#9edbb3",
+        "background": "#202630"
+      }
+    },
+    "info": {
+      "light": {
+        "foreground": "#245da8",
+        "background": "#ffffff"
+      },
+      "dark": {
+        "foreground": "#a8cdff",
+        "background": "#202630"
+      }
+    }
+  }
+}
