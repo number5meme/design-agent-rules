@@ -1,6 +1,4 @@
-# design
-
-Version: 1.4.3
+# design-agent-rules
 
 A set of workspace design rules for AI coding agents such as Codex and Claude Code, covering UI design, frontend implementation, brand design, posters, presentations, and product images, with corresponding review criteria.
 
