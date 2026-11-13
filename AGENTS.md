@@ -5,7 +5,8 @@ Applies to this directory and its subdirectories. The user's current request tak
 ## Starting a Task
 
 - Automatically attached rules, environment information, and tool status are execution context; do not acknowledge them separately. After a context restore, recover the unfinished task per [Interruption and Resumption](standards/workflow.md#interruption-and-resumption).
-- Identify the task via [Task Routing](#task-routing). In the first progress update, name the selected row, this task, and the next step before acting.
+- Apply the design workflows, specifications, and acceptance criteria only when the task involves visuals, layout, interface interaction, design assets, or their frontend implementation or review. Plugin management, authentication, deployment, environment troubleshooting, backend work, and data processing do not trigger design-spec loading on that basis alone; in a mixed task, apply design requirements only to the design parts. General collaboration, authorization, and evidence requirements still apply.
+- For a design task, identify the route via [Task Routing](#task-routing) and, in the first progress update, name the selected row, this task, and the next step before acting. A non-design task proceeds as the task itself requires, without picking the closest row.
 - For a new build or redesign, read the domain workflow and applicable acceptance items before acting.
 - For a local edit, verify the target, currently valid decisions, and affected rules and acceptance items. For review only, check the relevant acceptance items directly.
 - Consultation, discussion, and review end in a reply. Without a request to save or modify, do not create projects or change files. Extracting a reference is not adopting it.
@@ -37,6 +38,8 @@ For conflicting design decisions: user's current explicit request > verified, st
 - Font size, spacing, and other parameters explicitly marked "starting point" or "preferred" remain adjustable to content.
 
 ## Task Routing
+
+Use this table only for tasks within the design scope defined in [Starting a Task](#starting-a-task).
 
 | Current task | Consult |
 |---|---|
