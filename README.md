@@ -8,7 +8,7 @@ Copy the repository contents into the root of your workspace, or into the folder
 
 ## Usage
 
-The agent enters from [AGENTS.md](AGENTS.md) and reads selectively via task routing. Existing projects keep their own codebase and current records; for new projects, the user's request determines the deliverables. The documents do not include tools, account capabilities, or publishing authorization.
+The agent enters from [AGENTS.md](AGENTS.md) and reads selectively via task routing. Existing projects keep their own codebase and current records; for new projects, the user's request determines the deliverables.
 
 - [Design Library Navigation](library/README.md): entry to methods, specialized references, and optional parameters.
 - [Project Record Templates](templates/project/index.md): choose by task size; filling in everything is not required.
