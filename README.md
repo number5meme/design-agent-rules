@@ -4,7 +4,7 @@ A set of workspace design rules for AI coding agents such as Codex and Claude Co
 
 ## Installation
 
-Copy the repository contents into the root of your workspace, or into the folder where design work happens. Codex reads `AGENTS.md`; Claude Code reads `CLAUDE.md`, which includes `AGENTS.md`. The rules apply to that folder and its subfolders.
+Copy the repository contents into the root of your workspace, or into the folder where design work happens.
 
 ## Usage
 
