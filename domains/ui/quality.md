@@ -69,4 +69,6 @@ For native targets, record the actual verification environment, distinguishing w
 
 ## Data Displays
 
-For a chart, identify the question it answers. Verify units, time range, scale and series labels against the source data. Check that a reader can retrieve key values without hover, including by keyboard or touch when interactive. Check its text equivalent and non-color cues per [Core Defaults](../../standards/defaults.md#web-content-and-motion).
+- For a chart, identify the question it answers. Verify units, time range, scale and series labels against the source data. Check that a reader can retrieve key values without hover, including by keyboard or touch when interactive. Check its text equivalent and non-color cues per [Core Defaults](../../standards/defaults.md#web-content-and-motion).
+- For a displayed increase or decrease, verify that the comparison period or baseline is identifiable from the label or nearby context and matches the underlying calculation. Distinguish percentage change from percentage-point change where relevant. If the basis is unknown, mark it as unresolved rather than inventing one.
+- Compare repeated values of the same metric: units, decimal precision, abbreviations, and alignment should follow a consistent rule for the supported locale. Preserve precision needed for decisions and distinguish rounding from a true zero; different metrics may need different formats. In aligned columns or changing numeric readouts, check whether tabular figures and decimal or edge alignment improve comparison without breaking surrounding text.

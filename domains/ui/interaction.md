@@ -82,6 +82,8 @@ When turning a static design into a showcase animation, first distinguish demo c
 
 With a static design baseline, first compare against the agreed still or settled frame, then check the motion process. Independently moving content keeps correct relationships with containers, masks, and shadows; check clipping and overflow against design intent, and do not judge originally allowed overflow as an error across the board.
 
+When a showcase animation uses a cover, thumbnail, or static reduced-motion fallback, inspect that view independently at its intended size. It must communicate the main message without playback, with necessary text fully rendered and readable, and key values settled rather than a frozen transition, partial fade, or rolling digit. If understanding depends on a change over time, provide a concise explanation or a before-and-after comparison instead of relying on an unexplained result frame. This check does not require additional export formats beyond the agreed delivery.
+
 For looping animations, check whether the seam is continuous and whether repeated playback accumulates offset or ghosting; when a reset or return to baseline is needed, check that text, paths, particles, and other dynamic states have all reset. When there are hold or blank phases, check the whole phase; do not pass based only on the first and last frames matching.
 
 Check key phases of the actual exported file and play the full loop at normal speed; use slow motion, frame-by-frame, or controlled time sampling to locate issues as needed. Focus points and changes should remain clear at final size; still-frame matching or numeric difference metrics cannot replace checking the process.

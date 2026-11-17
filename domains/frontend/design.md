@@ -6,6 +6,8 @@ Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](qua
 
 Read the affected pages' structure, shared components, variables, adaptation constraints, and states, and view the actual rendering. Go deeper into nodes as needed; avoid guessing structure from screenshots alone or reading all nodes without bounds.
 
+For design-to-code work, map the in-scope design frames or nodes to implementation routes, shared components, and relevant states before building. Keep the source location and valid version in the existing project records; a local change needs only its affected mappings. Distinguish direct frame reproduction, authorized extension of an established design system, and missing or ambiguous references. Resolve structural disagreements between sources before treating a visual restyling as a completed migration; a design example does not establish new business rules or permissions.
+
 | Design content | Implementation |
 |---|---|
 | Available code components | Map semantics, variants, properties, and states; check after reuse |
@@ -20,9 +22,13 @@ A full-page screenshot cannot replace a runnable page. Link assets to nodes and 
 
 Distinguish content-driven, parent-allocated, and fixed sizes; prefer the corresponding layout for flowing content, and position overlays and decorations by relationship. Static coordinates cannot be taken directly as complete responsive rules; fill in unknown adaptive behavior based on content and scope.
 
+Inspect source properties when a detail cannot be reliably inferred from the image, including stroke alignment, clipping, and component variants. Preserve content geometry when translating inside, centered, or outside strokes; adding a CSS border must not unintentionally shrink the artwork. With image-only references, record uncertain measurements as estimates.
+
 Check font loading, weight, line-height units, letter spacing, line breaks, and fallback fonts. For Chinese and other large-character-set web fonts, also check actual resource size and loading scope; choose strategies such as system fallback or splitting by glyph or language based on brand, content, and performance needs. Static headings may be evaluated for subsetting, but dynamic body text and user input must not cover only the mockup's characters; verify missing glyphs, load failures, and line breaks and layout after font swaps, and do not fix weight, color, and typesetting values based on font name or language alone. Handle whole-element opacity, fill opacity, and gradient color opacity separately, avoiding effects on child content or double stacking.
 
 Prefer reusing existing variables and component interfaces. Implement interactions, loading, failure, and focus as agreed; when the design file lacks business behavior, do not invent it from appearance. For component wiring and related checks, see [Shared Components](../../standards/components.md).
+
+Check the rendered element's computed styles and the rules that actually win, not just the new token definitions. Locate affected independent renderers, including startup shells and loaded views, so a shared visual change reaches each intended branch. Handle conflicting legacy overrides per [Revisions and Recurring Issues](../../standards/components.md#revisions-and-recurring-issues).
 
 ## Web Platform Capabilities and Compatibility
 

@@ -22,6 +22,8 @@ After changing, confirm together that the target meets requirements, necessary l
 
 Whitespace ratio, out-of-bounds, and alignment warnings are leads for locating problems, not defects in themselves. Judge with the actual screen, reading order, and layout purpose; intentional whitespace, image bleed, and overlays can have a reasonable basis. After finding a problem, fix the cause; do not auto-resize with clearing warnings as the goal, and do not fixedly ignore deviations within some pixel threshold.
 
+When rounded shapes are nested, inspect the rendered inner and outer contours together with their intervening gap, borders, and clipping. Look for unintended pinching, uneven corner spacing, or exposed edges. Use the relationship between radii and spacing to diagnose the shape, not as a mandatory subtraction formula; preserve intentional differences and recheck at the relevant sizes.
+
 ## Mobile Layout
 
 - Define the relationship among system areas, content scroll areas, fixed actions, and bottom navigation; safe areas use target platform and actual environment values.

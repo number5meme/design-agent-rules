@@ -27,6 +27,8 @@ In multi-person scenes, make explicit the correspondence between each photo and 
 - Re-layout ultra-wide, ultra-tall, and small covers by the short side, actual display size, and content volume; avoid squeezing a regular poster into an unreadable thumbnail. Before cropping, define the areas to keep, and check people, logos, and key text.
 - Handle an oversized subject and an off-center framing separately: adjust size and position for an editable subject; redo the asset when the whole base image needs recomposition. Cropping only changes framing; it cannot restore subject content that is already missing.
 
+For product-interface illustrations and feature showcase images, simplify peripheral detail only while preserving the structure and content needed to recognize the product, the object being acted on, the key action and result, and the conditions needed to understand them. Supporting content may be subdued or abstracted, but key results must remain meaningful rather than becoming placeholder shapes. Inspect the final crop and overlaps for obscured actions or results. Do not omit steps or conditions in a way that implies unconfirmed capabilities; these allowances apply to illustrative presentation, not to removing necessary content from the working interface.
+
 ## Typography, Layers, and Production Method
 
 Use fonts that are actually available and suit the purpose; check Chinese and English text, numerals, punctuation, missing glyphs, and line breaks. Do not ban any category of font outright, and do not prescribe all font sizes by a uniform ratio.

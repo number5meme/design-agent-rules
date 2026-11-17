@@ -28,6 +28,8 @@ Handle necessary dependencies per task authorization, project conventions, and e
 
 Form the approach based on audience, content, brand, and purpose. Read methods to solve a specific problem. For parameters, follow [When to Read a Preset](../library/presets/index.md#when-to-read-a-preset).
 
+Choose references by the question being investigated: inspect working products or recorded interactions for task flows and exceptional states; use concept work and visual case studies to explore composition, materials, or emotional expression. Neither category is inherently better. Check what the reference actually demonstrates and whether it fits the project's constraints; reputation or awards do not establish suitability or acceptance.
+
 Browsing material does not mean adopting it. When borrowing, record only the dimensions taken; when adopting parameters, record the actual effective values and scope; when explicitly replicating, keep the agreed characteristics. Do not add approvals for ordinary aesthetic choices; confirm material ambiguity per the rules above.
 
 Resolve design conflicts per [File Precedence](../AGENTS.md#file-precedence); project variables maintain the actual effective values, and reference updates do not automatically override project decisions.

@@ -22,6 +22,8 @@ At the same viewport size, compare text with the same role and use the same size
 
 Type character fits the content, language, and use; display headings and body text can use different expression. Check heading line breaks, body reading width, mixed Chinese and English text, number alignment, and the effect after font substitution with real copy; do not decide quality by a fixed number of typefaces or type scale ratios.
 
+For multi-line body text without an established project setting, try a line height around 1.5 times the font size, then adjust using the actual font, language, line length, and content at the intended display size. Check that adjacent lines remain easy to distinguish without making the paragraph feel disconnected. This is a tuning starting point, not a fixed requirement or an accessibility conformance test.
+
 Whitespace expresses content relationships: in-group connection, between-group separation, and section pauses can use different scales; adjust with density and reading order, and do not target uniform large spacing or equal-height screens. Consider first-screen focus and the whole-page reading path together, giving headings, images, body text, evidence, and actions clear priorities, and avoid every block competing for attention at the same intensity.
 
 ## Color and Composition
