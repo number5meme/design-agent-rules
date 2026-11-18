@@ -4,7 +4,9 @@ A set of workspace design rules for AI coding agents such as Codex and Claude Co
 
 ## Installation
 
-Copy the repository contents into the root of your workspace, or into the folder where design work happens.
+For a new workspace, extract the archive and open the folder containing `AGENTS.md` as your workspace root.
+
+For an existing project, copy that folder to an unused path such as `design/`, keeping the project's agent instructions, README, and license in place. The rules apply within that folder and its subfolders. To use them for design work across the project, add a line to the root instructions your agent reads, using the actual installation path. For example, “For design tasks and related frontend implementation or review, follow the applicable sections of `design/AGENTS.md`.”
 
 ## Usage
 

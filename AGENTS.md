@@ -44,7 +44,7 @@ Use this table only for tasks within the design scope defined in [Starting a Tas
 | Current task | Consult |
 |---|---|
 | Scope or deliverable unclear | [Task Scope](standards/task-scope.md) |
-| Local edit to an existing interface | The project's current decisions and implementation; affected parts of [Shared Components](standards/components.md) and [Quality and Acceptance](standards/quality.md) |
+| Local edit to an existing interface | The project's current decisions and implementation; affected parts of [Shared Components](standards/components.md) and [Quality and Acceptance](standards/quality.md). For runnable frontend changes, also check the affected [Frontend Acceptance](domains/frontend/quality.md) items |
 | Extract shared components from completed pages | [Extracting from Completed Pages](standards/components.md#extracting-from-completed-pages), [Related Scope and Evidence](standards/quality.md#related-scope-and-evidence) |
 | Targeted edit to a design file | The target object; [Component and Layout Review](library/references/component-layout-review.md), [Design File and Export Acceptance](standards/quality.md#design-file-and-export-acceptance) |
 | New, edited, or replicated presentation | [Presentation Workflow](domains/presentation/workflow.md), [Presentation Design](domains/presentation/design.md), [Presentation Acceptance](domains/presentation/quality.md) |

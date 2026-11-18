@@ -68,7 +68,7 @@ When key behavior is being designed or changed, use [What to Define for Each Key
 
 Reviews provide the actual screens or interactions, necessary key judgments, and known boundaries; explain the impact on the user's task.
 
-Acceptance must answer all of the following: Is the task easier to complete? Are the visuals more harmonious? Is the problem behind the user's feedback resolved? Which assumptions remain unverified? Do not judge the design complete just because every item on the change list is checked.
+For a new design, report how the observed screens or flow meet the agreed success criteria and which assumptions remain unverified. When a previous version or user feedback provides a basis for comparison, identify what changed and what evidence shows whether the specific problem was resolved.
 
 ## Business Sources and Cross-Platform Migration
 

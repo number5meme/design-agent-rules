@@ -55,7 +55,7 @@ Done when: agreed pages, states, and core paths are covered with corresponding e
 For confirmed Figma and frontend dual delivery, follow [Figma and Frontend Dual Delivery Agreement](../../standards/dual-delivery.md). Otherwise skip this step.
 
 ## 5. Verification and Delivery
-Check the applicable sections of [UI Specialized Acceptance](quality.md); use [Quality and Acceptance](../../standards/quality.md) for evidence and delivery checks. Keep evidence of actual execution, and output how to run, versions, service dependencies, and known limitations.
+Check the applicable sections of [UI Specialized Acceptance](quality.md); use [Quality and Acceptance](../../standards/quality.md) for evidence and delivery checks. Keep evidence of actual verification. Identify the delivered version, how to open or view it, and any known limitations. For runnable deliverables, include startup instructions and any service dependencies.
 
 Distinguish "design ready for handoff", "frontend demo runnable", and "production integration complete". Completed design handoff does not automatically mean the product can go live.
 
