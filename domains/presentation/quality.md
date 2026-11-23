@@ -1,6 +1,6 @@
 # Presentation Acceptance
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: [Workflow](workflow.md) · [Method](design.md) · Acceptance. For local edits, read only the affected sections.
 
 Check numeric thresholds for text and key graphics, final-size determination, and print/projection boundaries per the [static visuals readability baseline](../../standards/defaults.md#static-visuals); record color measurements and the actual output environment, and do not pass based on subjective readability alone.
 

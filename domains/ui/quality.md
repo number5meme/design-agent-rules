@@ -1,6 +1,6 @@
 # UI Specialized Acceptance
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: [Workflow](workflow.md) · [Method](design.md) · Acceptance. For local edits, read only the affected sections.
 
 Choose checks by the affected pages, states, and behaviors. Read linked methods only when a check needs clarification or reveals an issue, not as a full-file reading list. For evidence, related scope, and delivery checks, see [Quality and Acceptance](../../standards/quality.md).
 
@@ -57,6 +57,7 @@ For showcase animations and loop exports, also check applicable items per [Showc
 - Actually check at the project's agreed minimum/mainstream/maximum viewports, and check threshold widths of affected layouts; check whether reading order, title line breaks, image focal points, density, and navigation suit the current size. On mobile, focus on safe areas, keyboard, scrolling, and fixed action areas.
 - When a mobile web page involves the address bar, soft keyboard, touch, or zoom, check per [Mobile Web Adaptation](../../library/references/web-ui-review.md#mobile-web-adaptation); record browser emulation and real-device conclusions separately.
 - Design and implementation set line-break, truncation, expansion, or scrolling strategies by actual data boundaries, and check with long and short copy, extreme values, empty data, missing images, and applicable multiple languages; key information and actions are not lost to container overflow or truncation.
+- When pointer hover or keyboard focus reveals additional content, check WCAG 1.4.13 per [Web Content and Motion](../../standards/defaults.md#web-content-and-motion).
 - Check item by item per [Core Defaults](../../standards/defaults.md) the contrast, target size, zoom, reflow, keyboard, and forms involved in this task; record measured values, environment, and exceptions. When motion is present, check reduced motion per [Motion Quality](interaction.md#motion-quality); a formal conformance claim requires a separate full audit.
 
 ## Details and Native Environments

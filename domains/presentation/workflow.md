@@ -1,6 +1,6 @@
 # Presentation Workflow
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: Workflow · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
 
 For creating, editing, and replicating presentations. Determine delivery per [Task Scope](../../standards/task-scope.md); for design, see [Presentation Design](design.md); check the finished deck per [Presentation Acceptance](quality.md).
 
@@ -20,6 +20,6 @@ When using a template or reference, extract applicable layouts such as content a
 
 ## Tools and Delivery
 
-Check per [1. Intake and Clarification](../../standards/workflow.md#1-intake-and-clarification) whether the current environment can create, edit, render, and export the required format; validate key capabilities such as complex charts, fonts, or animation with representative slides first, then produce in batch. When using an intermediate format, check round-trip conversion losses; do not treat tool documentation as proof that it is installed or available.
+Check per [Intake and Clarification](../../standards/workflow.md#intake-and-clarification) whether the current environment can create, edit, render, and export the required format; validate key capabilities such as complex charts, fonts, or animation with representative slides first, then produce in batch. When using an intermediate format, check round-trip conversion losses; do not treat tool documentation as proof that it is installed or available.
 
 Deliver the final file as agreed; when a project source is agreed, also provide the slides and assets it references, ensuring it still opens after moving directories. Recheck after the final export; record unavailable export or rendering capabilities as gaps, handle them per the general rules, and do not silently replace the delivery format.

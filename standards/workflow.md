@@ -2,9 +2,9 @@
 
 First determine the deliverable per [Task Scope](task-scope.md), then choose the domain workflow from [Task Routing](../AGENTS.md#task-routing).
 
-For review only, report evidence and findings in the reply unless the user requests a saved review. For implementation work or a requested saved review, reuse the project's review record when available, recording evidence and status only for applicable stages; small revisions may directly record the issue, change, and verification. When stage management is needed and the project has no existing convention, you may use: Not started / In progress / Pending review / Passed / Passed with conditions / Blocked. Passed requires an output link and basis; Passed with conditions requires recording unfinished items and their impact. Stage divisions do not automatically constitute user approval gates.
+For review only, report evidence and findings in the reply unless the user requests a saved review. For implementation work or a requested saved review, reuse the project's review record when available, recording evidence and status only for applicable stages; small revisions may directly record the issue, change, and verification. When stage management is needed and the project has no existing convention, you may use: Not started / In progress / Pending review / Passed / Passed with conditions / Blocked. Passed requires an output link and basis; Passed with conditions requires recording unfinished items and their impact. Stage changes do not require user approval by default. A stage status tracks progress; it does not change any individual check result. In particular, a conditional stage pass leaves unverified checks unverified.
 
-## 1. Intake and Clarification
+## Intake and Clarification
 
 - Read requirements, outputs, and brand and engineering materials needed for this task. Distinguish facts, assumptions, and open items. Tailor documentation per [Record Ownership](task-scope.md#record-ownership), without filling documents as a fixed first step.
 - Clarify core paths and data/service dependencies for the agreed deliverable. Do not settle unsupported business rules on your own.

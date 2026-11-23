@@ -1,6 +1,6 @@
 # Presentation Design
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: [Workflow](workflow.md) · Method · [Acceptance](quality.md). For local edits, read only the affected sections.
 
 ## Content and Narrative
 

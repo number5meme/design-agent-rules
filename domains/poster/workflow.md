@@ -1,8 +1,8 @@
 # Poster Production Workflow
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: Workflow · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
 
-Posters, covers, and showcase images follow this workflow; for the design method, see [Poster Design](design.md), and when done, check per [Poster Acceptance](quality.md). Confirm the delivery format per [Task Scope](../../standards/task-scope.md).
+Confirm the delivery format per [Task Scope](../../standards/task-scope.md).
 
 ## 1. Identify Inputs and Necessary Gaps
 

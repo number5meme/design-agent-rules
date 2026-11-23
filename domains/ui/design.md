@@ -1,6 +1,6 @@
 # Design Judgment and Feedback Reasoning
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: [Workflow](workflow.md) · Method · [Acceptance](quality.md). For local edits, read only the affected sections.
 
 Applies to new designs and modifications; tailor records per [Record Ownership](../../standards/task-scope.md#record-ownership).
 
@@ -31,7 +31,7 @@ When creating or redesigning a direction, make key design judgments explicit; wh
 |---|---|---|---|---|
 
 Requirements:
-- Label facts, explicit user requirements, and Agent inferences separately; do not present inferences as user approval. Confirm ambiguities affecting the operated object, behavior, permissions, or delivery first per [Intake and Clarification](../../standards/workflow.md#1-intake-and-clarification); aesthetic autonomy does not replace requirement confirmation.
+- Label facts, explicit user requirements, and Agent inferences separately; do not present inferences as user approval. Confirm ambiguities affecting the operated object, behavior, permissions, or delivery first per [Intake and Clarification](../../standards/workflow.md#intake-and-clarification); aesthetic autonomy does not replace requirement confirmation.
 - Check hierarchy, content/data, assets, applicable interactions, and visual consistency per task; do not invent changes to pad the count.
 - Important design decisions can explain their effect on the task, brand expression, or emotional experience. Color and blur parameters do not replace reasoning.
 - You may compare and prototype autonomously during design; by default deliver one recommended option and explain key trade-offs. Provide alternatives when the user requests a comparison or a major trade-off needs explaining.
@@ -40,6 +40,8 @@ Requirements:
 ## User Feedback Triggers Related Review
 
 Handle feedback and revisions per [Per-Revision Requirements](../../standards/workflow.md#per-revision-requirements); on the design side, focus on identifying which layouts and behaviors changes in copy, position, or appearance will affect, keeping unrelated confirmed decisions.
+
+After deleting or moving information, check affected layout and behavior per [Revisions and Recurring Issues](../../standards/components.md#revisions-and-recurring-issues). Provide guidance in empty states only when the user has a reasonable next action.
 
 ## Check Issues the User Did Not Name
 
@@ -61,6 +63,8 @@ When content organization, layout, or adaptation methods are needed, consult the
 
 When control selection, entry naming, or input hints are involved, read the corresponding sections of [Controls and Copy](controls-and-copy.md).
 
+Handle component selection per [External Implementation Selection](../../standards/components.md#external-implementation-selection). When claiming native capability, note the actual platform, version, and runtime evidence; a similar appearance does not prove a system implementation. Different item counts and containers may affect component size; choose representative scenarios and check independent branches per [Related Scope and Evidence](../../standards/quality.md#related-scope-and-evidence).
+
 ## Design Judgment for Dynamic Behavior
 When key behavior is being designed or changed, use [What to Define for Each Key Interaction](interaction.md#what-to-define-for-each-key-interaction) and only the sections matching that behavior. For a swipe, specify how the content follows the gesture, when release commits the change, and how a canceled swipe returns to its starting position. How the top bar and bottom bar behave after the page scrolls up is also within the first-round design scope; specific behavior is decided by the task.
 
@@ -75,7 +79,3 @@ For a new design, report how the observed screens or flow meet the agreed succes
 Link key design decisions to valid sources, distinguishing requirements, actual observations, platform constraints, and inferences; reference existing records directly. Explicit user revisions may override the original PRD within this project's scope; flag conflicts between platform constraints and business documents rather than choosing silently. Existing prototypes and mock data are not a new business basis.
 
 When migrating across platforms, record only the business meaning, observed differences, target-platform decisions, and basis that affect this design, reusing existing records. Keep business meaning consistent, and adjust entry points, density, and presentation per platform; a feature not observed on the source platform does not mean it does not exist, and cannot override confirmed target-platform requirements. Handle business conflicts per [Task Scope](../../standards/task-scope.md#scope-record).
-
-After deleting or moving information, check affected layout and behavior per [Revisions and Recurring Issues](../../standards/components.md#revisions-and-recurring-issues). Provide guidance in empty states only when the user has a reasonable next action.
-
-Handle component selection per [External Implementation Selection](../../standards/components.md#external-implementation-selection). When claiming native capability, note the actual platform, version, and runtime evidence; a similar appearance does not prove a system implementation. Different item counts and containers may affect component size; choose representative scenarios and check independent branches per [Related Scope and Evidence](../../standards/quality.md#related-scope-and-evidence).

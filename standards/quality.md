@@ -53,5 +53,5 @@ Check against the user's reasons for rejection whether the new approach improves
 
 ## Tailoring by Task
 
-First tailor checks by [task type](task-scope.md): static showcase images do not require login states, and pure code fixes do not require a new Figma. Mark each result with its version and verification environment; do not carry an old version's passing conclusion over to a changed component of the same kind.
+First tailor checks by [task type](task-scope.md): static showcase images do not require login states, and pure code fixes do not require a new design file. Mark each result with its version and verification environment; do not carry an old version's passing conclusion over to a changed component of the same kind.
 

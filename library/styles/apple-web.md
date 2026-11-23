@@ -8,7 +8,7 @@ When only an "Apple style" is requested, autonomously decide the layout, color, 
 
 | Dimension | Basis and optional expression |
 |---|---|
-| Layout | Choose centered showcase, split columns, editorial arrangement, asymmetric composition, or comparison grid by narrative and operating task; do not fix the first-screen structure |
+| Layout | Center a single focal product; pair a detail with its explanation in split columns. When readers compare models, align equivalent attributes in a grid |
 | Color | Choose neutral, warm, colorful, or dark surfaces by brand, product, and mood; the action color can be decided independently and is not limited to blue |
 | Page rhythm | Decide continuous same-color, local emphasis, or light/dark switching by information relationships; alternating sections are not required |
 | Assets | Photography, interface, illustration, or text can carry the visual subject, decided by content and available assets |

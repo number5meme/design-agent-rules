@@ -10,15 +10,13 @@ Read the corresponding file only when the user specifies a preset, explicit repl
 | [Bright Rounded Showcase](product-commerce.md) | Light surfaces, image-and-text and purchase control sizes |
 | [Graphite Mint](dark-content.md) | Dark surfaces, accent color, and browsing control sizes |
 | [Deep Gray Lavender](dark-software.md) | Dark showcase, heading and panel sizes |
-| [Neutral Surfaces with Blue Actions](neutral-web.tokens.json) | Machine-readable type, component, material, and responsive parameters |
+| [Neutral Surfaces with Blue Actions](neutral-web.preset.json) | Machine-readable type, component, material, and responsive parameters |
 
 ## Reading and Combining Parameters
 
 Project variables are the primary record of actually adopted values; reference updates do not automatically override project changes. The neutral JSON uses the custom `design-agent-preset-v2` component recipe format and does not claim DTCG interchange compatibility; convert explicitly before handing it to external token tools. `extends` inherits a component in the same file, and curly-brace references point to keys in the same file; responsive configs are sorted ascending by minimum viewport width, and the last satisfied entry matches.
 
 `contrastPairs` declares the solid-color check scope; `focus.light/dark` applies to all interactive components on the corresponding surface. Focus ring, selected border, and selected check each express a different meaning and may appear together. Transparent materials, image backgrounds, and actual layouts still need measurement.
-
-This version of the neutral preset reorganizes type, corner radius, spacing, layout, responsive settings, effects, and common components; common integer scales are not brand-specific parameters, and do not adjust them randomly to avoid numeric coincidences. When upgrading old JSON, migrate by component responsibility; do not automatically map old component keys to new components; values already adopted by existing projects do not change automatically.
 
 ## Shared Status Usage
 

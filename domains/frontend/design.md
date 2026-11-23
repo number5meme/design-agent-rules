@@ -1,6 +1,6 @@
 # Frontend Implementation Method
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: [Workflow](workflow.md) · Method · [Acceptance](quality.md). For local edits, read only the affected sections.
 
 ## Reading and Breakdown
 
@@ -15,6 +15,8 @@ For design-to-code work, map the in-scope design frames or nodes to implementati
 | Images and complex textures | Export suitable resources; check cropping, resolution, and transparency |
 | Icons and vectors | Prefer reusing project assets; export separately when necessary |
 | Simple surfaces, borders, and gradients | Implement with styles |
+
+When revising interface copy, trace the text to its source (for example, a translation key, a component caller, or a CMS entry). Edit it there if the change is in scope for its consumers. Otherwise, report the source and affected uses; do not bypass it with a hard-coded string in the view.
 
 A full-page screenshot cannot replace a runnable page. Link assets to nodes and files by role, avoiding lost resources or duplicate exports.
 

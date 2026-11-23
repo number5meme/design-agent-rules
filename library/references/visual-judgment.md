@@ -44,7 +44,7 @@ Judge the expressive benefit of a technique together with loading, reading, oper
 
 ## Application
 
-In the project design record, state key rationale, design actions, and check methods. Arrange the workflow by task size, and choose color, type, and appearance by brand, content, and platform; provide an entry point in empty states only when a reasonable next step exists.
+In the project design record, state key rationale, design actions, and check methods. Arrange the workflow by task size, and choose color, type, and appearance by brand, content, and platform.
 
 ## Testing a Proposed Direction
 

@@ -1,6 +1,6 @@
 # Poster Acceptance
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: [Workflow](workflow.md) · [Method](design.md) · Acceptance. For local edits, read only the affected sections.
 
 Use this checklist as the primary acceptance for posters, covers, and showcase images. From [Quality and Acceptance](../../standards/quality.md), apply shared evidence requirements and only the relevant asset, editability, and export checks; do not load interface or runtime checks for static artwork.
 

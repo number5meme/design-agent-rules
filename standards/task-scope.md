@@ -4,7 +4,7 @@ Determine the nature of the task per the [entry rules](../AGENTS.md#starting-a-t
 
 | Scenario | Minimum record | Main output | Required acceptance | Do not add automatically |
 |---|---|---|---|---|
-| Existing frontend feature / bug fix | Impact scope, existing behavior, change and verification | Code change, how to run, applicable tests | Actual paths, related regressions; screenshots when visuals are affected | Figma redraw, product refactor, new backend |
+| Existing frontend feature / bug fix | Impact scope, existing behavior, change and verification | Code change, how to run, applicable tests | Actual paths, related regressions; screenshots when visuals are affected | Design file redraw, product refactor, new backend |
 | Single web page / product page | Audience, task, content, devices, dependencies | Page code or editable design as requested | Real content, responsive adaptation, applicable states and interactions | Full app, login system, extra pages |
 | Specific design image / UI mockup | Purpose, size, content, references, output format | Editable source or explicitly agreed final image, exports | Proportions, fonts, assets, readability; editability when a source file is agreed | Runnable frontend, unrelated business flows |
 | Poster / cover / promotional showcase image | Placement, subject, brand, copy, specs | Graphic source file / bitmap, exported as agreed | Actual size, cropping, safe margins, licensing | Page interactions, full set of UI states |
@@ -33,7 +33,7 @@ When dissatisfaction is local, adjust the corresponding dimension; when the over
 
 ## Project Isolation
 
-Before working on a project, determine ownership from the user-specified path, current task context, and existing directories. New projects default to a dedicated directory at `projects/<project-name>/`; existing projects keep their original directory, and do not create duplicate projects for a new task or local revision. When the user specifies another location, follow it, and do not migrate existing files on your own.
+Before working on a project, determine ownership from the user-specified path, current task context, and existing directories. In a standalone workspace, create new projects under `projects/<project-name>/` relative to the workspace root. If installed at `my-app/design/`, work on the existing application in `my-app/`; the rules directory is not the project root. Keep existing projects in place. When the user specifies another location, follow it, and do not migrate existing files on your own.
 
 Directory names should identify the project; check for name collisions before creating. A shared name does not prove it is the same project. When ownership cannot be reliably determined, confirm first, then perform reads and writes that depend on it.
 

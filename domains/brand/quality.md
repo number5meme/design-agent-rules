@@ -1,6 +1,6 @@
 # Brand and Character Acceptance
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: [Workflow](workflow.md) · [Method](design.md) · Acceptance. For local edits, read only the affected sections.
 
 | Check | Criteria and evidence |
 |---|---|

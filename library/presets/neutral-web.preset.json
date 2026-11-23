@@ -254,7 +254,7 @@
       "inlinePadding": "32px"
     }
   ],
-  "responsiveRationale": "Column capacity is checked with a 280px card minimum width, 24px gap, and inline padding; column counts are starting points, and drop a column earlier when content is wider. Text wraps naturally and does not inherit old site navigation breakpoints. content-max-width means the content width excluding outer padding.",
+  "responsiveRationale": "Column capacity is checked with a 280px card minimum width, 24px gap, and inline padding; column counts are starting points, and drop a column earlier when content is wider. Allow text to wrap naturally. content-max-width means the content width excluding outer padding.",
   "statusSource": "status-pairs.json",
   "statusThemes": [
     "light",

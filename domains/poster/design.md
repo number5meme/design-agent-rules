@@ -1,6 +1,6 @@
 # Poster Design
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: [Workflow](workflow.md) · Method · [Acceptance](quality.md). For local edits, read only the affected sections.
 
 For promotional posters, event teasers, covers, and showcase images. Choose composition by placement purpose, content, and brand; do not presuppose people, a logo, buttons, or a fixed style.
 

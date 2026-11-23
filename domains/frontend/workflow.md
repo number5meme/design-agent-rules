@@ -1,6 +1,6 @@
 # Frontend Implementation Workflow
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: Workflow · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
 
 For building new frontends, modifying existing codebases, and design-to-code. Keep the existing tech stack and components; determine delivery scope per [Task Scope](../../standards/task-scope.md); do not add a separate design file or backend by default.
 

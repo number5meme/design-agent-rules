@@ -1,6 +1,6 @@
 # Product Category Judgment Cues
 
-Choose applicable cues by user, task, data, and platform to form design judgments to be verified. Categories not listed can be judged directly from the current task; case and counterexample support is required only when adding category knowledge to the library.
+Choose applicable cues by user, task, data, and platform to form design judgments to be verified. Categories not listed can be judged directly from the current task.
 
 | Attribute | Ask first | Design it may affect | Avoid mechanically applying |
 |---|---|---|---|
@@ -12,7 +12,3 @@ Choose applicable cues by user, task, data, and platform to form design judgment
 ## Composite Products
 
 One product can use multiple cues, but assign responsibilities to modules; do not stack every convention of every category onto the home page.
-
-## Library Entry Format
-
-Category / task and scenario / observation and evidence / derived action / applicable conditions / counterexamples / project result. Promote knowledge status from candidate only after real verification; mark user preferences separately and do not treat them as category rules.

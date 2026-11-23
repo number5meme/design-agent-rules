@@ -1,6 +1,6 @@
 # UI Design Workflow
 
-Read by task: [Workflow](workflow.md) · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
+Read by task: Workflow · [Method](design.md) · [Acceptance](quality.md). For local edits, read only the affected sections.
 
 For new or redesigned UI pages, multi-page experiences, and new modules in existing projects. Validate a representative sample before expanding when the scope requires expansion; local revisions run only the affected steps. For upfront clarification, capability checks, and revision boundaries, see [General Execution](../../standards/workflow.md).
 
@@ -52,7 +52,7 @@ Done when: agreed pages, states, and core paths are covered with corresponding e
 
 ## 4. Dual Delivery Alignment (Only When Confirmed by the User)
 
-For confirmed Figma and frontend dual delivery, follow [Figma and Frontend Dual Delivery Agreement](../../standards/dual-delivery.md). Otherwise skip this step.
+For confirmed dual delivery, follow the [Design File and Frontend Dual Delivery Agreement](../../standards/dual-delivery.md).
 
 ## 5. Verification and Delivery
 Check the applicable sections of [UI Specialized Acceptance](quality.md); use [Quality and Acceptance](../../standards/quality.md) for evidence and delivery checks. Keep evidence of actual verification. Identify the delivered version, how to open or view it, and any known limitations. For runnable deliverables, include startup instructions and any service dependencies.
